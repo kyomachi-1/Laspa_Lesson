@@ -37047,6 +37047,58 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/web/About.vue?vue&type=template&id=328ab392&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/web/About.vue?vue&type=template&id=328ab392& ***!
+  \************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c(
+      "div",
+      { staticClass: "jumbotron mt-4" },
+      [
+        _c("h1", { staticClass: "display-4" }, [_vm._v("Contact Pages")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "lead" }, [
+          _vm._v("It's SPA Sample. Developed by Laravel/Vue.js")
+        ]),
+        _vm._v(" "),
+        _c("hr", { staticClass: "my-4" }),
+        _vm._v(" "),
+        _c("router-link", { attrs: { to: "/about" } }, [
+          _vm._v("What's About?")
+        ]),
+        _vm._v(" "),
+        _c(
+          "router-link",
+          {
+            staticClass: "btn btn-primary btn-lg",
+            attrs: { to: "/contact", role: "button" }
+          },
+          [_vm._v("Contact Us")]
+        )
+      ],
+      1
+    )
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/web/Contact.vue?vue&type=template&id=2526c8ca&":
 /*!**************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/web/Contact.vue?vue&type=template&id=2526c8ca& ***!
@@ -37067,7 +37119,7 @@ var render = function() {
       "div",
       { staticClass: "jumbotron mt-4" },
       [
-        _c("h1", { staticClass: "display-4" }, [_vm._v("About Pages")]),
+        _c("h1", { staticClass: "display-4" }, [_vm._v("Contact Pages")]),
         _vm._v(" "),
         _c("p", { staticClass: "lead" }, [
           _vm._v("It's SPA Sample. Developed by Laravel/Vue.js")
@@ -52352,6 +52404,59 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/web/About.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/components/web/About.vue ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _About_vue_vue_type_template_id_328ab392___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./About.vue?vue&type=template&id=328ab392& */ "./resources/js/components/web/About.vue?vue&type=template&id=328ab392&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _About_vue_vue_type_template_id_328ab392___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _About_vue_vue_type_template_id_328ab392___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/web/About.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/web/About.vue?vue&type=template&id=328ab392&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/web/About.vue?vue&type=template&id=328ab392& ***!
+  \******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_328ab392___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib??vue-loader-options!./About.vue?vue&type=template&id=328ab392& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/web/About.vue?vue&type=template&id=328ab392&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_328ab392___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_About_vue_vue_type_template_id_328ab392___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/components/web/Contact.vue":
 /*!*************************************************!*\
   !*** ./resources/js/components/web/Contact.vue ***!
@@ -52471,7 +52576,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _components_web_Index_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/web/Index.vue */ "./resources/js/components/web/Index.vue");
-!(function webpackMissingModule() { var e = new Error("Cannot find module '../components/web/About.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+/* harmony import */ var _components_web_About_vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/web/About.vue */ "./resources/js/components/web/About.vue");
 /* harmony import */ var _components_web_Contact_vue__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/web/Contact.vue */ "./resources/js/components/web/Contact.vue");
 
 
@@ -52486,7 +52591,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
     component: _components_web_Index_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
   }, {
     path: '/about',
-    component: !(function webpackMissingModule() { var e = new Error("Cannot find module '../components/web/About.vue'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())
+    component: _components_web_About_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
   }, {
     path: '/contact',
     component: _components_web_Contact_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
