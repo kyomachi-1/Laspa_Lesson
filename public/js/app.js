@@ -37067,7 +37067,7 @@ var render = function() {
       "div",
       { staticClass: "jumbotron mt-4" },
       [
-        _c("h1", { staticClass: "display-4" }, [_vm._v("Contact Pages")]),
+        _c("h1", { staticClass: "display-4" }, [_vm._v("About Pages")]),
         _vm._v(" "),
         _c("p", { staticClass: "lead" }, [
           _vm._v("It's SPA Sample. Developed by Laravel/Vue.js")
@@ -52586,7 +52586,7 @@ vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODU
 
 /* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: 'history',
-  routers: [{
+  routes: [{
     path: '/',
     component: _components_web_Index_vue__WEBPACK_IMPORTED_MODULE_2__["default"]
   }, {

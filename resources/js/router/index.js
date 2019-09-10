@@ -9,7 +9,7 @@ import Contact from '../components/web/Contact.vue';
 
 export default new VueRouter({
     mode: 'history',
-    routers:[
+    routes:[
         { path: '/', component: Index },
         { path: '/about', component: About },
         { path: '/contact', component: Contact },
